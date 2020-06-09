@@ -1,0 +1,19 @@
+{
+  "name": "gridsome-shop",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "concurrently \"gridsome develop\" \"yarn sanity\"",
+    "explore": "gridsome explore",
+    "sanity": "cd ./sanity && yarn start"
+  },
+  "dependencies": {
+    "gridsome": "^0.7.0",
+    "gridsome-source-sanity": "^1.0.5"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "dotenv": "^8.2.0",
+    "gridsome-plugin-tailwindcss": "^2.2.48"
+  }
+}

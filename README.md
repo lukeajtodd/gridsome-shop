@@ -1,14 +1,32 @@
-# Default starter for Gridsome
+# gridsome-shop - Static Shop
 
-This is the project you get when you run `gridsome create new-project`.
+## Stack
 
-### 1. Install Gridsome CLI tool if you don't have
+- Gridsome
+- Sanity.io
+- Snipcart
+- Tailwind (& Tailblocks)
 
-`npm install --global @gridsome/cli`
+Static shop built with Gridsome & Sanity. Attempt to build a statically updated shop that houses a small number of items.
 
-### 2. Create a Gridsome project
+## Requirements
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+- Node@12
+- Yarn
+
+## Setup
+
+- `yarn setup`
+- Carry out `.env` updates
+- `yarn develop`
+
+## Issues
+
+- Sanity ID is hard-coded in `sanity.json`
+
+## Plans
+
+- Add Snipcart for basket functionality
+- Configuration of tailwind and tailblocks in terms of theming
+- Once MVP is finalised then re-configure component layout
+- General config file updates
